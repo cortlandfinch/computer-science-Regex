@@ -23,7 +23,7 @@ The regex that I will be using will be "\d{5}(-\d{4})?", which will check for a 
 
 
 ### Anchors
-
+The Anchor of a regex function is used - not to match a character that the function is being used for but to start the position of the string that the function is being used to match within the string at the beginning or the end of the function. In this example the anchor of the function "\d" is used before the starting number of both the zip code number strings.
 ### Quantifiers
 
 ### OR Operator
