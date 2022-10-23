@@ -31,15 +31,13 @@ The OR Operator used in this regex function is "[-\s]" which is used to look for
 ### Character Classes
 The Character classes in this function "\d" is used  which matches a single character that represents a digit 0-9. "-\s" is also a character class in this function looking for a whitespace character.
 ### Flags
-
+The Regex in this case is not delimited by two "/" at the start and end of the expression. The "^" and "$" enables the matching of the start and end of the pattern sequence. 
 ### Grouping and Capturing
-
+The grouping that is used in this case by shown of the "()" groups the whitespace character and second sequence of numbers retrieved.
 ### Bracket Expressions
-
+In this case the bracket expression that is used within the "[]" is the whitespace character which includes the "-\s".
 ### Greedy and Lazy Match
-
-### Boundaries
-
+The greedy operators used in this example are within the "{}" which expands the match as far as possible through the provided sequence. In this example that would include the digits used that are provided.
 ### Back-references
 
 ### Look-ahead and Look-behind
