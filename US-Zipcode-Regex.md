@@ -25,7 +25,7 @@ The regex that I will be using will be "^\d{5}(?:[-\s]\d{4})?$", which will chec
 ### Anchors
 The Anchor of a regex function is used - not to match a character that the function is being used for but to start the position of the string that the function is being used to match within the string at the beginning or the end of the function. In this example the anchor of the function "^" is used before the starting number of the zip code number string and the "$" is used as the end of the string.
 ### Quantifiers
-
+The quantifiers are used in a regex expression to quantify how many times the sequence pattern should be repeated within that given function. In this case the quantifier is repeated twice for the two different zipcode sequence patterns used. That is grouped by "{}" within the regex function.
 ### OR Operator
 The OR Operator used in this regex function is "[-\s]" which is used to look for a whitespace character used in the function.
 ### Character Classes
@@ -38,10 +38,5 @@ The grouping that is used in this case by shown of the "()" groups the whitespac
 In this case the bracket expression that is used within the "[]" is the whitespace character which includes the "-\s".
 ### Greedy and Lazy Match
 The greedy operators used in this example are within the "{}" which expands the match as far as possible through the provided sequence. In this example that would include the digits used that are provided.
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Cortland Finch Link to regex github https://github.com/cortlandfinch/computer-science-Regex
