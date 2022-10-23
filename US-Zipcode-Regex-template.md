@@ -27,9 +27,9 @@ The Anchor of a regex function is used - not to match a character that the funct
 ### Quantifiers
 
 ### OR Operator
-
+The OR Operator used in this regex function is "[-\s]" which is used to look for a whitespace character used in the function.
 ### Character Classes
-
+The Character classes in this function "\d" is used  which matches a single character that represents a digit 0-9. "-\s" is also a character class in this function looking for a whitespace character.
 ### Flags
 
 ### Grouping and Capturing
